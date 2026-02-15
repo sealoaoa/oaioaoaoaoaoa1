@@ -1,0 +1,17 @@
+{
+  "name": "taixiu-predictor",
+  "version": "1.0.0",
+  "description": "Dự đoán tài xỉu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "simple-statistics": "^7.8.0",
+    "ml-logistic-regression": "^2.1.0",
+    "brain.js": "^2.0.0-beta.4"
+  }
+}
