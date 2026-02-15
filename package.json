@@ -1,7 +1,7 @@
 {
   "name": "taixiu-predictor",
   "version": "1.0.0",
-  "description": "Dự đoán tài xỉu",
+  "description": "Dự đoán tài xỉu với ensemble models",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -11,7 +11,11 @@
     "express": "^4.18.2",
     "cors": "^2.8.5",
     "simple-statistics": "^7.8.0",
-    "ml-logistic-regression": "^2.1.0",
+    "ml-logistic-regression": "2.1.0",
     "brain.js": "^2.0.0-beta.4"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   }
 }
